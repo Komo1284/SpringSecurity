@@ -10,4 +10,14 @@ public class IndexController {
     public String index() {
         return "Hello World";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "Home";
+    }
+
+    @GetMapping("/loginPage")
+    public String loginPage() {
+        return "Login Page";
+    }
 }
